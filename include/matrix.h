@@ -1,3 +1,6 @@
+#ifndef MATRIX_H
+#define MATRIX_H
+
 typedef struct 
 {
     int columns;
@@ -16,3 +19,5 @@ Matrix* multiplyMatrices(Matrix* a, Matrix* b);
 void gaussianElimination(Matrix* a);
 
 
+
+#endif
