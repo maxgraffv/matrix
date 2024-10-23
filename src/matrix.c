@@ -18,3 +18,9 @@ Matrix* createMatrix(int columns, int rows)
     return matrix;
 }
 
+int deleteMatrix(Matrix* matrixToRemove)
+{
+    free(matrixToRemove->matrixPtr);
+    free(matrixToRemove);
+    return 1;
+}

@@ -12,6 +12,7 @@ typedef struct
 }Matrix;
 
 Matrix* createMatrix(int columns, int rows);
+int deleteMatrix(Matrix* matrixToRemove);
 
 Matrix* addMatrices(Matrix* a, Matrix* b);
 Matrix* multiplyMatrices(Matrix* a, Matrix* b);
